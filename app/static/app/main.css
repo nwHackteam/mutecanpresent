@@ -1,6 +1,109 @@
-#home{
-    background-color: lightblue;
-    color: black;
-    padding: 40px;
+body{
+    margin: 0;
+  }
+  
+  
+  .horizNav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .horizNav li {
+    float: left;
+  }
+  
+  .horizNav li a {
+    display: block;
+    color: white;
     text-align: center;
-}
+    padding: 30px 35px;
+    text-decoration: none;
+  }
+  
+  .horizNav li input{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 35px;
+    text-decoration: none;
+  }
+  
+  .horizNav li a:hover {
+    background-color: #111;
+  }
+  
+  .horizNav li input:hover{
+    background-color: #111;
+  }
+  
+  
+  .vertNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .vertNav li a {
+      display: block;
+      color: #000;
+      padding: 30px 35px;
+      text-decoration: none;
+      text-align: center;
+  }
+  
+  li a:hover {
+    background-color: grey;
+    color: #f1f1f1;
+  }
+  
+  textarea{
+    padding: 10px;
+    position: relative;
+    left: 325px;
+    top: 50px;
+    border-radius: 25px;
+    border-color: black;
+  }
+  
+  .buttons{
+    width: 740px;
+    height: 45px;
+    position: relative;
+    left: 325px;
+    top: 60px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
+  
+  .button{
+    background-color:  #f1f1f1; /* Green */
+   border: none;
+   color: #f1f1f1;
+   padding: 0;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 25px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 100%;
+  
+  }
+  
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
